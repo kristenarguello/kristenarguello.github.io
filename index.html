@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kristen Arguello</title>
+  <meta name="description" content="Kristen K. Arguello — AI Engineer. Projects, publications, and awards." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Simple emoji favicon, no extra asset needed -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>" />
+
+  <!-- Set theme before first paint, to avoid a flash of the wrong theme -->
+  <script>
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="logo" aria-label="Kristen K. Arguello — home">
+        kristen<span class="accent">.</span>dev<span class="dim">()</span>
+      </a>
+
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5"></circle>
+            <path d="M12 2.5v2.5M12 19v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12H5M19 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20.5 14.3A8.5 8.5 0 1 1 9.7 3.5a7 7 0 0 0 10.8 10.8z"></path>
+          </svg>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#about"><span class="idx">01.</span> About</a></li>
+        <li><a href="#projects"><span class="idx">02.</span> Projects</a></li>
+        <li><a href="#awards"><span class="idx">03.</span> Awards</a></li>
+        <li><a href="#publications"><span class="idx">04.</span> Publications</a></li>
+        <li><a href="#contact" class="nav-cta"><span class="idx">05.</span> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero container" id="top">
+      <p class="code-line">
+        engineer <span class="op">=</span> <span class="punct">{</span>
+      </p>
+      <p class="code-line indent">
+        <span class="str">"name"</span><span class="punct">:</span> <span class="str">"Kristen K. Arguello"</span><span class="punct">,</span>
+      </p>
+      <p class="code-line indent">
+        <span class="str">"role"</span><span class="punct">:</span> <span class="str">"AI Engineer"</span><span class="punct">,</span>
+      </p>
+      <p class="code-line indent">
+        <span class="str">"research_interests"</span><span class="punct">:</span> <span class="punct">[</span><span class="str">"machine learning"</span><span class="punct">,</span> <span class="str">"deep learning"</span><span class="punct">,</span> <span class="str">"interpretability"</span><span class="punct">]</span><span class="punct">,</span>
+      </p>
+      <p class="code-line">
+        <span class="punct">}</span>
+      </p>
+
+      <h1 class="hero-title">Kristen K. Arguello</h1>
+
+      <div class="hero-icon-links">
+        <a href="https://github.com/kristenarguello" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kristen-k-arguello" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.13 1.44-2.13 2.94v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="https://scholar.google.com.br/citations?user=gj4FJjQAAAAJ&amp;hl=pt-BR" target="_blank" rel="noopener" aria-label="Google Scholar profile">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 1 8l11 6 9-4.91V17h2V8L12 2zM5 13.18v4.73L12 22l7-4.09v-4.73L12 17l-7-3.82z"/></svg>
+        </a>
+        <a href="mailto:kristenarguello20@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.3 5.3a1 1 0 0 0 1.18 0L19.8 6H4.2zm15.8 1.6-7.11 5.16a2.5 2.5 0 0 1-2.94 0L4.8 7.6V18h15.2V7.6z"/></svg>
+        </a>
+      </div>
+
+      <p class="hero-subtitle">AI Engineer and researcher on machine learning systems.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title"><span class="idx accent">01.</span> About Me</h2>
+
+        <div class="placeholder-box" aria-label="Placeholder content">
+          <p>
+            <span class="comment">// TODO: write your bio here.</span><br/>
+            This section is a placeholder — replace this paragraph in
+            <code>index.html</code> (inside <code>&lt;section id="about"&gt;</code>)
+            with a few sentences about who you are, what you work on, and
+            what you're looking for. A good structure: who you are today →
+            what you've built or researched → what drives you → what's next.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title"><span class="idx accent">02.</span> Projects</h2>
+        <p class="section-intro">
+          A selection of things I've built and researched. Code projects are pulled live from
+          <a href="https://github.com/kristenarguello" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+
+        <h3 class="project-group-title">Research</h3>
+
+        <div class="research-topic">
+          <div class="research-topic-head">
+            <h4 class="research-topic-title">AI Applied to Healthcare</h4>
+            <span class="topic-tag topic-tag-previous">Previous interest</span>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-paper">
+              <div class="project-card-head">
+                <span class="project-name">Anatomical Mask Conditioning for Low-Dose CT Denoising</span>
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="8" y1="13" x2="16" y2="13"></line><line x1="8" y1="17" x2="13" y2="17"></line></svg>
+                </span>
+              </div>
+              <p class="project-desc">
+                An architecture-focused investigation into conditioning low-dose CT denoising
+                models on anatomical masks &mdash; isolating which architectural choices actually
+                move the needle on image quality.
+              </p>
+              <p class="pub-authors project-paper-authors">
+                <strong>Kristen K. Arguello</strong>, Ra&iacute;ssa Contassot, Augusto Ochoa Ughini,
+                Lucas S. Kupssinski&uuml;, and Rodrigo C. Barros.
+              </p>
+              <div class="project-meta">
+                <span class="project-lang project-lang-paper">BRACIS 2026</span>
+                <a class="project-link" href="https://link.springer.com/chapter/10.1007/978-3-032-39898-7_40" target="_blank" rel="noopener">Read the paper &rarr;</a>
+              </div>
+              <span class="pub-tag pub-tag-first">First author</span>
+            </article>
+
+            <article class="project-card project-card-paper">
+              <div class="project-card-head">
+                <span class="project-name">Knowledge Distillation and Composite Loss for LDCT Denoising</span>
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="8" y1="13" x2="16" y2="13"></line><line x1="8" y1="17" x2="13" y2="17"></line></svg>
+                </span>
+              </div>
+              <p class="project-desc">
+                Uses knowledge distillation and a composite loss function as a low-resource
+                strategy for denoising low-dose CT images &mdash; solid results without a large
+                compute budget.
+              </p>
+              <p class="pub-authors project-paper-authors">
+                Ra&iacute;ssa Contassot, Augusto Ochoa Ughini, Jerusa Finatto,
+                <strong>Kristen K. Arguello</strong>, Rafaela Ravazio, Ot&aacute;vio Parraga,
+                Christian Mattjie, Lucas S. Kupssinski&uuml;, and Rodrigo C. Barros.
+              </p>
+              <div class="project-meta">
+                <span class="project-lang project-lang-paper">ENIAC 2026</span>
+                <a class="project-link" href="https://sol.sbc.org.br/index.php/eniac/article/view/46901" target="_blank" rel="noopener">Read the paper &rarr;</a>
+              </div>
+              <span class="pub-tag">Co-author</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="research-topic">
+          <div class="research-topic-head">
+            <h4 class="research-topic-title">Interpretability</h4>
+            <span class="topic-tag topic-tag-current">Current interest</span>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-paper">
+              <div class="project-card-head">
+                <span class="project-name">GUARD-IT: Inference-Time Machine Unlearning via Gated Activation Redirection</span>
+                <span class="project-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="8" y1="13" x2="16" y2="13"></line><line x1="8" y1="17" x2="13" y2="17"></line></svg>
+                </span>
+              </div>
+              <p class="project-desc">
+                Introduces GUARD-IT, an inference-time machine unlearning method: it steers activations
+                along input-dependent directions to make a model "forget" specific training content
+                &mdash; no retraining required. Holds up across model sizes from 0.8B to 8B parameters,
+                and survives quantization and sequential unlearning requests.
+              </p>
+              <p class="pub-authors project-paper-authors">
+                Vin&iacute;cius Conte Turani, Ot&aacute;vio Parraga, Jo&atilde;o Vitor Boer Abitante,
+                <strong>Kristen K. Arguello</strong>, Joana Pasquali, Ramiro N. Barros, Flavio du Pin Calmon,
+                Christian Mattjie, Rodrigo C. Barros, and Lucas S. Kupssinski&uuml;.
+              </p>
+              <div class="project-meta">
+                <span class="project-lang project-lang-paper">arXiv preprint &middot; 2026</span>
+                <a class="project-link" href="https://arxiv.org/abs/2605.12765" target="_blank" rel="noopener">Read the paper &rarr;</a>
+              </div>
+              <span class="pub-tag">Co-author</span>
+            </article>
+          </div>
+        </div>
+
+        <h3 class="project-group-title">Code</h3>
+        <div class="project-grid" id="projectGrid">
+          <!-- Populated by js/main.js. Skeletons shown while loading. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="section" id="awards">
+      <div class="container">
+        <h2 class="section-title"><span class="idx accent">03.</span> Awards &amp; Honors</h2>
+
+        <ul class="award-list">
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Best Undergraduate Thesis Award</h3>
+              <p class="award-issuer">PUCRS, Polytechnic School</p>
+              <p class="award-desc">Best bachelor's thesis in Computer Science, 2026/1 semester.</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Outstanding Student Award <span class="orig">(Estudante Destaque SBC)</span></h3>
+              <p class="award-issuer">Brazilian Computer Society (SBC)</p>
+              <p class="award-desc">National award to the top graduating student of each computing program in Brazil, based on GPA, research, publications, and academic activities.</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Outstanding Female Student Award <span class="orig">(Aluna Destaque &mdash; Meninas Digitais)</span></h3>
+              <p class="award-issuer">Brazilian Computer Society (SBC), Meninas Digitais Program</p>
+              <p class="award-desc">Awarded to graduating female students with outstanding performance in teaching, research, and extension activities.</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Academic Excellence Award <span class="orig">(Destaque Acad&ecirc;mico)</span></h3>
+              <p class="award-issuer">PUCRS</p>
+              <p class="award-desc">Awarded to the graduate ranked first in the class (approx. 30 students).</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Graduation with Honors <span class="orig">(L&aacute;urea Acad&ecirc;mica)</span></h3>
+              <p class="award-issuer">PUCRS</p>
+              <p class="award-desc">GPA of at least 8.5/10, no final grade below 8.0, and at least two-thirds of final grades at 9.0 or above.</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2026</div>
+            <div class="award-body">
+              <h3>Saint Marcelino Champagnat Award</h3>
+              <p class="award-issuer">PUCRS</p>
+              <p class="award-desc">Elected by secret ballot of the graduating class as the most supportive and collaborative classmate.</p>
+            </div>
+          </li>
+
+          <li class="award-item">
+            <div class="award-year">2022&ndash;2025</div>
+            <div class="award-body">
+              <h3>Academic Merit Award</h3>
+              <p class="award-issuer">PUCRS</p>
+              <p class="award-desc">Awarded in 7 semesters (2022/1&ndash;2024/1, 2025/1, 2025/2); the remaining two were an exchange semester and a final semester with insufficient credits.</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section section-alt" id="publications">
+      <div class="container">
+        <h2 class="section-title"><span class="idx accent">04.</span> Publications</h2>
+
+        <ol class="pub-list">
+
+          <li class="pub-item">
+            <p class="pub-authors">
+              <strong>Kristen K. Arguello</strong>, Ra&iacute;ssa Contassot, Augusto Ochoa Ughini,
+              Lucas S. Kupssinski&uuml;, and Rodrigo C. Barros.
+            </p>
+            <p class="pub-title">&ldquo;Anatomical Mask Conditioning for Low-Dose CT Denoising: An Architecture-Focused Investigation.&rdquo;</p>
+            <p class="pub-venue">
+              Proceedings of the 36th Brazilian Conference on Intelligent Systems (BRACIS 2026),
+              Lecture Notes in Computer Science (LNAI), vol. 17108, pp. 595&ndash;609.
+              Springer, Cuiab&aacute;, Brazil, 2026.
+              <a href="https://link.springer.com/chapter/10.1007/978-3-032-39898-7_40" target="_blank" rel="noopener">Read the paper &rarr;</a>
+            </p>
+            <span class="pub-tag pub-tag-first">First author</span>
+          </li>
+
+          <li class="pub-item">
+            <p class="pub-authors">
+              Ra&iacute;ssa Contassot, Augusto Ochoa Ughini, Jerusa Finatto,
+              <strong>Kristen K. Arguello</strong>, Rafaela Ravazio, Ot&aacute;vio Parraga,
+              Christian Mattjie, Lucas S. Kupssinski&uuml;, and Rodrigo C. Barros.
+            </p>
+            <p class="pub-title">&ldquo;Knowledge Distillation and Composite Loss as a Low-Resource Strategy for LDCT Image Denoising.&rdquo;</p>
+            <p class="pub-venue">
+              Encontro Nacional de Intelig&ecirc;ncia Artificial e Computacional (ENIAC). Brazil, 2026.
+              <a href="https://sol.sbc.org.br/index.php/eniac/article/view/46901" target="_blank" rel="noopener">Read the paper &rarr;</a>
+            </p>
+            <span class="pub-tag">Co-author</span>
+          </li>
+
+          <li class="pub-item">
+            <p class="pub-authors">
+              Ramiro N. Barros, <strong>Kristen K. Arguello</strong>, and J&ocirc;natas Wehrmann.
+            </p>
+            <p class="pub-title">&ldquo;Anchor Your Embeddings Through the Storm: Mitigating Instance-to-Document Semantic Gap.&rdquo;</p>
+            <p class="pub-venue">
+              International Joint Conference on Neural Networks (IJCNN). IEEE, Yokohama, Japan, 2024.
+              <a href="https://ieeexplore.ieee.org/document/10650518" target="_blank" rel="noopener">Read the paper &rarr;</a>
+            </p>
+            <span class="pub-tag">Co-author</span>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title"><span class="idx accent">05.</span> Contact</h2>
+        <p class="section-intro">
+          Feel free to reach out to talk about anything! Happy to connect :)
+        </p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="https://www.linkedin.com/in/kristen-k-arguello" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.13 1.44-2.13 2.94v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+
+          <a class="contact-link" href="mailto:kristenarguello20@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.5 7.3 5.3a1 1 0 0 0 1.18 0L19.8 6H4.2zm15.8 1.6-7.11 5.16a2.5 2.5 0 0 1-2.94 0L4.8 7.6V18h15.2V7.6z"/></svg>
+            <span>Email</span>
+          </a>
+
+          <a class="contact-link" href="https://scholar.google.com.br/citations?user=gj4FJjQAAAAJ&amp;hl=pt-BR" target="_blank" rel="noopener" aria-label="Google Scholar profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 1 8l11 6 9-4.91V17h2V8L12 2zM5 13.18v4.73L12 22l7-4.09v-4.73L12 17l-7-3.82z"/></svg>
+            <span>Google Scholar</span>
+          </a>
+
+          <a class="contact-link" href="https://github.com/kristenarguello" target="_blank" rel="noopener" aria-label="GitHub profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.03a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
